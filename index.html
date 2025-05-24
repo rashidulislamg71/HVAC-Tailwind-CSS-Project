@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoolQuest</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts import -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Port+Lligat+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-opensans">
+    <!-- hero section  -->
+    <section id="hero_section " class="bg-green-700">
+      <div
+        class="hero_section_container flex flex-wrap justify-center items-center flex-col py-[30px] lg:px-[80px]"
+      >
+        <!-- navbar header  -->
+        <div>
+          <header
+            class="text-[18px] font-semibold flex flex-wrap flex-col lg:flex-row justify-between items-center lg:w-[1200px] bg-white lg:rounded-[50px] py-[10px] px-[20px]"
+          >
+            <!-- logo -->
+            <div>
+              <h3 class="font-portlligat text-[24px] font-bold">
+                <a href="#">CoolQuest</a>
+              </h3>
+            </div>
+            <!-- navbar  -->
+            <div>
+              <nav class="flex gap-10 tracking-[0.02%]">
+                <a
+                  class="ease-in-out duration-[.2s] hover:text-green-700 hover:underline"
+                  href="#"
+                  >About Us</a
+                >
+                <a
+                  class="ease-in-out duration-[.2s] hover:text-green-700 hover:underline"
+                  href="#"
+                  >Services</a
+                >
+                <a
+                  class="ease-in-out duration-[.2s] hover:text-green-700 hover:underline"
+                  href="#"
+                  >Past Work</a
+                >
+                <a
+                  class="ease-in-out duration-[.2s] hover:text-green-700 hover:underline"
+                  href="#"
+                  >Revies</a
+                >
+              </nav>
+            </div>
+            <!-- nav get free quote btn -->
+            <div>
+              <button
+                class="ease-in-out duration-[.2s] hover:shadow-customShadow bg-green-700 py-[2px] px-[15px] rounded-3xl text-white"
+              >
+                Get Free Quote
+              </button>
+            </div>
+          </header>
+        </div>
+
+        <!-- hero content  -->
+        <div class="flex flex-wrap justify-between items-center gap-5">
+          <!-- hero_contetn left side -->
+          <div class="px-[15px]">
+            <div class="">
+              <h1 class="text-[60px] leading-[72px] tracking-[0.2%] text-white">
+                Reliable HVAC for <br />
+                Every Season
+              </h1>
+            </div>
+            <div class="leading-[24px] text-[16px] my-[10px]">
+              <div class="flex gap-1 items-center">
+                <img
+                  class="w-[15px] h-[15px]"
+                  src="./images/home_img/checkmark.png"
+                  alt="checkmark"
+                />
+                <small class="text-white"
+                  >Certified & Experienced Technicians</small
+                >
+              </div>
+              <div class="flex gap-1 items-center">
+                <img
+                  class="w-[15px] h-[15px]"
+                  src="/images/home_img/alarm-clock.png"
+                  alt="alarm-clock"
+                />
+                <small class="text-white">Fast, Reliable Service</small>
+              </div>
+              <div class="flex gap-1 items-center">
+                <img
+                  class="w-[15px] h-[15px]"
+                  src="./images/home_img/hot-price.png"
+                  alt="hot-price"
+                />
+                <small class="text-white"
+                  >Transparent, Affordable Pricing</small
+                >
+              </div>
+            </div>
+            <!-- hero form  -->
+            <div class="mt-[10px] mb-[20px]">
+              <form
+                class="h-[82px] w-[390px] bg-white p-[10px] rounded flex flex-col items-center justify-between gap-1"
+              >
+                <div class="flex gap-1">
+                  <input
+                    class="border rounded py-[1px] px-[10px] text-[14px] flex-1"
+                    type="text"
+                    placeholder="Name"
+                  />
+                  <input
+                    class="border rounded py-[3px] px-[10px] text-[14px] flex-1"
+                    type="text"
+                    placeholder="Phone"
+                  />
+                </div>
+                <div class="flex gap-1 w-[370px]">
+                  <select
+                    class="rounded w-[50%] border py-[1px] px-[6px] text-[14px] flex-1"
+                  >
+                    <option disabled value="Service">Service</option>
+                    <option value="Service">Service</option>
+                    <option value="Service">Service</option>
+                    <option value="Service">Service</option>
+                  </select>
+                  <button
+                    class="w-[50%] text-white bg-green-700 py-[2px] px-[px] rounded ease-in-out duration-[.2s] hover:shadow-customShadow"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- certified Installer  -->
+            <div>
+              <p class="text-white">Certified Installer</p>
+              <div
+                class="flex flex-wrap mt-[10px] items-center gap-3 lg:gap-10"
+              >
+                <img
+                  class="w-[68px] h-[ 26px]"
+                  src="./images/home_img/gaf.png"
+                  alt="gaf"
+                />
+                <img
+                  class="w-[ 18.83px] h-[ 18.83px]"
+                  src="./images/home_img/lennox.png"
+                  alt="lennox"
+                />
+                <img
+                  class="w-[ 175.67px] h-[22px]"
+                  src="./images/home_img/amiur.png"
+                  alt="american stemdard"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- hero_contetn right side -->
+          <div class="my-[50px] ml-[-13px] lg:ml-[0px]">
+            <div class="flex flex-col gap-0 justify-center items-center">
+              <img
+                class="w-[620px] h-[437px]"
+                src="./images/home_img/hero_model.png"
+                alt="model"
+              />
+              <div
+                class="flex gap-5 lg:gap-6 items-center justify-center flex-wrap lg:ml-[20px]"
+              >
+                <img
+                  class="lg:w-[265px] w-[183px] lg:h-[143px] w-[100px] cursor-pointer hover:scale-[1.1] ease-in-out duration-[.2s]"
+                  src="./images/home_img/past work one.png"
+                  alt="past work"
+                />
+                <img
+                  class="lg:w-[265px] w-[183px] lg:h-[143px] w-[100px] cursor-pointer hover:scale-[1.1] ease-in-out duration-[.2s]"
+                  src="./images/home_img/past work two.png"
+                  alt="past work"
+                />
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews and testimonials section  -->
+    <section class="bg-grray-100">
+      <div
+        class="py-[60px] px-[15px] lg:p-[80px] flex flex-col justify-between items-center"
+      >
+        <div>
+          <h2
+            class="text-[40px] leading-[48px] tracking-[0.2%] text-center font-bold"
+          >
+            Trusted by Families Like Yours
+          </h2>
+        </div>
+        <!-- testimonials cards -->
+        <div
+          class="flex flex-wrap lg:gap-10 gap-5 justify-center lg:justify-between items-center my-[50px]"
+        >
+          <!-- single testimonial card  -->
+          <!-- card-1  -->
+          <div
+            class="flex flex-col justify-between items-center gap-4 p-[20px] w-[360px] h-[303px] bg-white rounded-3xl shadow-customShadow ease-in-out duration-[.3s] hover:bg-green-700 cursor-pointer hover:text-white"
+          >
+            <div class="flex flex-col items-center">
+              <img src="./images/reviews_img/Frame.png" alt="Frame" />
+              <strong>Mason Carter</strong>
+              <img src="./images/reviews_img/stars.png" alt="stars" />
+            </div>
+            <div class="text-center w-[244px] text-[14px]">
+              <p>
+                “Super professional service, quick installation, and everything
+                works perfectly. Highly recommend!”
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="./images/reviews_img/google.png" alt="google" />
+              <p>Reviewed on Google</p>
+            </div>
+          </div>
+          <!-- card-2  -->
+          <div
+            class="flex flex-col justify-between items-center gap-4 p-[20px] w-[360px] h-[303px] bg-white rounded-3xl shadow-customShadow ease-in-out duration-[.3s] hover:bg-green-700 cursor-pointer hover:text-white"
+          >
+            <div class="flex flex-col items-center">
+              <img src="./images/reviews_img/Frame3.png" alt="Frame2" />
+              <strong>Chloe Aderson</strong>
+              <img src="./images/reviews_img/stars.png" alt="stars" />
+            </div>
+            <div class="text-center w-[244px] text-[14px]">
+              <p>
+                “Very happy with their work! The team was efficient and the new
+                system runs great.”
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="./images/reviews_img/google.png" alt="google" />
+              <p>Reviewed on Google</p>
+            </div>
+          </div>
+          <!-- card-3  -->
+          <div
+            class="flex flex-col justify-between items-center gap-4 p-[20px] w-[360px] h-[303px] bg-white rounded-3xl shadow-customShadow ease-in-out duration-[.3s] hover:bg-green-700 cursor-pointer hover:text-white"
+          >
+            <div class="flex flex-col items-center">
+              <img src="./images/reviews_img/Frame2.png" alt="Frame2" />
+              <strong>Skylar Bennertt</strong>
+              <img src="./images/reviews_img/stars.png" alt="stars" />
+            </div>
+            <div class="text-center w-[244px] text-[14px]">
+              <p>
+                “Great experience from start to finish. Honest pricing and
+                top-notch service!”
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="./images/reviews_img/google.png" alt="google" />
+              <p>Reviewed on Google</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button
+            class="rounded bg-green-700 ease-in-out duration-[.2s] hover:shadow-customShadow py-[3px] px-[20px] text-white text-[17px]"
+          >
+            View more
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges & Certifications  -->
+    <section>
+      <div class="flex flex-col items-center justify-between lg:gap-15 gap-10 pb-[50px] ">
+        <div>
+
+          <h2
+            class="text-[40px] leading-[48px] tracking-[0.2%] text-center font-bold"
+          >
+            Your Trusted HVAC Experts
+          </h2>
+        </div>
+        <div class="flex justify-center items-start lg:items-center gap-3 lg:gap-20">
+          <div class="flex flex-col justify-center items-center leading-[20px]">
+            <img src="./images/certificat_img/iso90.png" alt="ISO" />
+            <p class="mt-[10px] text-center">ISO 90001 Certified</p>
+            <small class="text-center">Quality Management for HVAC Excellence</small>
+          </div>
+          <div class="flex flex-col justify-center items-center leading-[20px]">
+            <img src="./images/certificat_img/iso14.png" alt="ISO" />
+            <p class="mt-[10px] text-center">ISO 14001 Certification</p>
+            <small class="text-center">Eco-Friendly HVAC Solutions</small>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center lg:justify-between items-start lg:gap-20 gap-5 ">
+          <div class=" flex flex-col items-center gap-4 
+          justify-center">
+            <img class=" h-[120px] mt-[-25px]"
+              src="./images/certificat_img/empresa-certificada 1.png"
+              alt="empresa-certificada"
+            />
+            <p class="mt-[-20px]">EPA Certified</p>
+          </div>
+          <div class=" flex flex-col items-center gap-4 
+          justify-center">
+            <img class="w-[144px] h-[68px]"
+              src="./images/certificat_img/bbb.png"
+              alt="BBB Certified"
+            />
+            <p>BBB Certified</p>
+          </div>
+          <div class="flex flex-col items-center gap-4 
+          justify-center">
+            <img class="w-[68px] h-[68px]"
+              src="./images/certificat_img/nate.png"
+              alt="NATE Ceritfied"
+            />
+            <p>NATE Certified</p>
+          </div>
+        </div>
+
+
+       
+      </div>
+    </section>
+
+    <!--  why choose us section  -->
+      <section class="bg-[rgb(235,255,241)] py-[50px] lg:px-[80px]">
+        <!-- why choose us section title  -->
+        <div>
+            <h2
+            class="text-[40px] leading-[48px] tracking-[0.2%] text-center font-bold"
+          >
+            The Beneits of Choosing Us
+          </h2>
+        </div>
+        <!-- why choose us section cards  -->
+        <div class="my-[50px] flex flex-wrap justify-center items-center lg:gap-30 gap-10">
+          <!-- why choose us single card-  -->
+           <!-- card-1 -->
+           <div class="flex flex-col justify-center items-center text-center w-[360px] h-[251px] p-[20px] bg-white  rounded-tr-[20px] rounded-bl-[20px] shadow-customShadow hover:scale-[1.1] ease-in-out duration-[.3s] cursor-pointer">
+            <img src="./images/why_choose_img/clock-03.png" alt="">
+            <p class="mt-[15px] mb-[10px] text-[22px] leading-[24px] font-medium">24/7 Emergency Services</p>
+            <small class="text-[14px] leading-[20px] tracking-[0.2%]">Fast and reliable emergency HVAC services available 24/7.</small>
+           </div>
+           <!-- card-2 -->
+           <div class="flex flex-col justify-center items-center text-center w-[360px] h-[251px] p-[20px] bg-white  rounded-tr-[20px] rounded-bl-[20px] shadow-customShadow hover:scale-[1.1] ease-in-out duration-[.3s] cursor-pointer">
+            <img src="./images/why_choose_img/labor.png" alt="labor">
+            <p class="mt-[15px] mb-[10px] text-[22px] leading-[24px] font-medium">Experienced Professionals</p>
+            <small class="text-[14px] leading-[20px] tracking-[0.2%]">Highly trained and certified HVAC experts with years of industry experience.</small>
+           </div>
+           <!-- card-3 -->
+           <div class="flex flex-col justify-center items-center text-center w-[360px] h-[251px] p-[20px] bg-white  rounded-tr-[20px] rounded-bl-[20px] shadow-customShadow hover:scale-[1.1] ease-in-out duration-[.3s] cursor-pointer">
+            <img src="./images/why_choose_img/dollar-circle.png" alt="dollar-circle">
+            <p class="mt-[15px] mb-[10px] text-[22px] leading-[24px] font-medium">Affordable Pricing</p>
+            <small class="text-[14px] leading-[20px] tracking-[0.2%]">Transparent and competitive pricing with no hidden fees.</small>
+           </div>
+        </div>
+      </section>
+
+    <!-- javascript  -->
+    <script src="script.js"></script>
+  </body>
+</html>
